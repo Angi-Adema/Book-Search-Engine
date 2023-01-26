@@ -42,13 +42,13 @@ const SignupForm = () => {
       // console.log(user);
       // Auth.login(token);
 
-      // eslint-disable-next-line no-unused-vars
-      const { data } = await addUser({
+      // activity 25
+        const { data } = await addUser({
         variables: { ...userFormData }
       });
 
       Auth.login(data.addUser.token)
-      
+
     } catch (err) {
       console.error(err);
       setShowAlert(true);
