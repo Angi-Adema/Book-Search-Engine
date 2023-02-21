@@ -42,8 +42,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Deploy Locally
 
-1. npm run seed
-2. npm run develop
+1. npm run develop
 
 ## Credits
 
